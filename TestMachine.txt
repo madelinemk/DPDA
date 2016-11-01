@@ -1,4 +1,4 @@
-Student Created Test Machine -- any string
+Student Created Test Machine
 0,1,#
 0,1
 q0,q1,q2
