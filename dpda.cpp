@@ -264,9 +264,14 @@ void DPDA::process(std::string x) {
               << transitions[rule].stack_top     << "| "
               << transitions[rule].new_state     << ", ";
 
-    for (auto i : stack) {
-      std::cout << i << " ";
+    if (stack.empty()) {
+      std::cout << "~";
+    } else {
+      for (auto i : stack) {
+        std::cout << i << " ";
+      }
     }
+
     std::cout << std::endl;
   }
 
