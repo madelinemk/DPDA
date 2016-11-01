@@ -1,0 +1,14 @@
+M2: Simple Palindrome with trapping
+a,b,c
+a,b
+A,F,T
+A
+F
+A,a,~|A,a
+A,b,~|A,b
+A,c,~|F,~
+F,a,a|F,~
+F,b,b|F,~
+F,c,~|T,~
+F,a,b|T,~
+F,b,a|T,~

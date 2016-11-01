@@ -1,0 +1,23 @@
+Mystery DPDA
+a,b,+,-,=,#
+a,b,c,$
+q0,ql,qr1,qr2,qr3,qe1,qe2,qf
+q0
+qf
+q0,~,~|ql,$
+ql,a,~|ql,a
+ql,+,~|qr1,~
+ql,-,~|qr2,~
+qr1,a,~|qr1,a
+qr1,=,~|qe1,~
+qe1,a,a|qe1,~
+qe1,#,$|qf,~
+qr2,a,a|qr2,~
+qr2,a,$|qr3,$
+qr3,~,~|qr2,b
+qr2,a,b|qr3,b
+qr2,=,~|qe2,~
+qe2,b,b|qe2,~
+qe2,a,a|qe2,~
+qe2,#,$|qf,~
+

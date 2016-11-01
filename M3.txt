@@ -1,0 +1,18 @@
+M3:Equal as and bs', with a final $ 
+a,b,$
+a,b,$
+S,Q,Qa,Qb,Q$a,Q$b,F
+S
+F
+S,~,~|Q,$
+Q,a,$|Q$a,$
+Q$a,~,~|Q,a
+Q,a,a|Qa,a
+Qa,~,~|Q,a
+Q,a,b|Q,~
+Q,b,$|Q$b,$
+Q$b,~,~|Q,b
+Q,b,a|Q,~
+Q,b,b|Qb,b
+Qb,~,~|Q,b
+Q,$,$|F,~
