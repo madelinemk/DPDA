@@ -241,7 +241,8 @@ void DPDA::process(std::string x) {
       if ( !stack.empty()) {
         stack.pop_front();
       } else {
-        std::cout << "fuck you " << std::endl;
+        std::cout << "ERROR: tried to pop from empty stack" << std::endl;
+        exit(1);
       }
     }
 
